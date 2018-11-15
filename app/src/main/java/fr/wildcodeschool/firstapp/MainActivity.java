@@ -36,10 +36,12 @@ public class MainActivity extends AppCompatActivity {
                 {
                     name.setEnabled(true);
                     lastname.setEnabled(true);
+                    button.setEnabled(true);
                 }
                 else {
                     name.setEnabled(false);
                     lastname.setEnabled(false);
+                    button.setEnabled(false);
                 }
             }
         });
